@@ -1,0 +1,143 @@
+body {
+	background-color: black;
+
+}
+@font-face {
+	font-family: 'atlas';
+	src: url(atlas.otf);
+}
+
+@font-face {
+	font-family: 'lyon';
+	src: url(Finura-Italic.otf);
+}
+
+@font-face {
+	font-family: 'at';
+	src: url(atlaslight.otf);
+}
+h2 {
+	color: white;
+	font-family: 'at';
+	font-weight: lighter;
+	font-size: 1.6em;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+form {
+	color: white;
+	font-family: sans-serif;
+}
+
+p{
+	font-family: 'atlas';
+	color: white;
+	font-family: sans-serif;
+}
+button{
+	visibility: hidden;
+}
+
+#email{
+	margin: 0 auto;
+	width: 25vw;
+	margin-top: 48vh;
+	align-items: center;
+	
+}
+
+#first{
+	width: 22vw;
+	margin-bottom: 2%;
+	float: left;
+	background-color: black;
+	border: 0px;
+}
+
+#main {
+	width: 98vw;
+	margin: 0 auto;
+}
+
+input{
+	color:white;
+	font-family: 'atlas';
+	text-align: center;
+	padding: 2%;
+	float: none;
+	display: block;
+	 display: flex;
+}
+
+input::placeholder {
+  color: grey;
+  font-family: 'atlas';
+  text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+#question{
+	margin-top: 25vh;
+}
+
+#text{
+	background-color: black;
+	width: 70vw;
+	height: 20vh;
+	margin: 0 auto;
+	margin-top: 2%;
+	border: 0px;
+	resize: none;
+}
+
+textarea#text{
+	color:white;
+	font-family: 'atlas';
+	font-size: 0.8em;
+	line-height: 1.4em;
+	text-align: center;
+	display: flex;
+}
+
+#submit{
+	background-color: black;
+	padding: 0.7%;
+	margin: 0% auto;
+}
+
+#finish {
+	margin-top: 25vh;
+	color:white;
+	font-family: 'atlas';
+	font-size: 1.6em;
+	line-height: 1.4em;
+	text-align: center;
+}
+
+h3{
+	color:white;
+	font-family: 'atlas';
+	font-size: 0.8em;
+	line-height: 1.2em;
+	text-align: center;
+}
+
+h4{
+	color:rgb(0.255.0);
+	font-family: 'atlas';
+	font-size: 0.5em;
+	line-height: 1.2em;
+	text-align: left;
+}
+
+#wrapper{
+	width: 38vw;
+	margin: 0% auto;
+}
